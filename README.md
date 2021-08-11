@@ -66,9 +66,10 @@ Below is a reference of the supported options:
 | darkMode.secondaryColor  | string |    No    | The secondary color of the bar when in dark mode.  | = primaryColor |
 
 ### Choosing Gradients
-This is a list of websites where you can find and create nice gradients:
+This is a list of websites where you can find and create nice color gradients:
 - [Grabient](https://www.grabient.com/)
 - [Coolhue](https://webkul.github.io/coolhue/)
+- [CSS Gradient](https://cssgradient.io/)
 - [Gradient Hunt](https://gradienthunt.com/)
 - [WebGradients](https://webgradients.com/)
 
