@@ -1,0 +1,44 @@
+{
+    "name": "codedoc-readingprogress-plugin",
+    "version": "1.0.0",
+    "description": "A reading progress bar plugin for Codedoc.",
+    "main": "dist/es5/index.js",
+    "module": "dist/es6/index.js",
+    "types": "dist/es6/index.d.ts",
+    "sdhTransport": "module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build-es5": "tsc -p conf/typescript/es5.json",
+      "build-es6": "tsc -p conf/typescript/es6.json",
+      "build": "npm run build-es5 && npm run build-es6"
+    },
+    "sideEffects": false,
+    "files": [
+      "dist/es6",
+      "dist/es5"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/danielsitnik/codedoc-readingprogress-plugin.git"
+    },
+    "keywords": [
+      "reading",
+      "progress",
+      "progressbar",
+      "codedoc",
+      "plugin"
+    ],
+    "author": "Daniel Sitnik <danielsitnik@outlook.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/danielsitnik/codedoc-readingprogress-plugin/issues"
+    },
+    "homepage": "https://github.com/danielsitnik/codedoc-readingprogress-plugin#readme",
+    "peerDependencies": {
+      "@codedoc/core": ">=0.2.5"
+    },
+    "devDependencies": {
+      "@codedoc/core": "^0.2.24",
+      "typescript": "^3.9.10"
+    }
+  }
