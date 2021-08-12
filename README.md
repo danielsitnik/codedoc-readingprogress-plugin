@@ -1,3 +1,5 @@
+[![NPM](https://img.shields.io/npm/v/codedoc-readingprogress-plugin)](https://www.npmjs.com/package/codedoc-readingprogress-plugin)
+
 # codedoc-readingprogress-plugin
 This plugin adds a progress bar to the top of your [Codedoc](https://codedoc.cc) documents. The progress bar extends itself to show the reading progress of the current document.
 
