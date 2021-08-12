@@ -37,7 +37,7 @@ export const config = /*#__PURE__*/configuration({
     // other properties removed for brevity
     plugins: [
         readingProgressPlugin({
-            height: 6,
+            height: 5,
             lightMode: {
                 primaryColor: '#FDD819',
                 secondaryColor: '#E80505'
@@ -57,7 +57,7 @@ Below is a reference of the supported options:
 
 | Option                   |  Type  | Required | Description                                        |  Default Value |
 |:-------------------------|:------:|:--------:|:---------------------------------------------------|:--------------:|
-| height                   | number |    No    | The height of the progress bar (in pixels).        |        5       |
+| height                   | number |    No    | The height of the progress bar (in pixels).        |        3       |
 | lightMode                | object |    No    |                                                    |                |
 | lightMode.primaryColor   | string |    Yes   | The primary color of the bar when in light mode.   |     #1eb2a6    |
 | lightMode.secondaryColor | string |    No    | The secondary color of the bar when in light mode. | = primaryColor |

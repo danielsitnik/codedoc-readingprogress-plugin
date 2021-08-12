@@ -19,7 +19,7 @@ export interface ReadingProgressOptions {
 export function readingProgressPlugin(config?: ReadingProgressOptions) {
     return function(): ConfigOverride {
         const opts = {
-            height: config?.height || 5,
+            height: config?.height || 3,
             lightMode: {
                 primaryColor: config?.lightMode?.primaryColor || '#1eb2a6',
                 secondaryColor: config?.lightMode?.secondaryColor || config?.lightMode?.primaryColor || '#1eb2a6'
